@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from assistant import process_query
+from agent import process_query
 
 st.set_page_config(page_title="🛍️ Shopping Assistant", page_icon="🛒")
 st.title("🛍️ AI Shopping Assistant")
